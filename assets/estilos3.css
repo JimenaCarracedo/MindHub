@@ -37,7 +37,6 @@ body>header>h1{
     text-decoration-color: gold;
     
 }
-
 h2{
         position:absolute;
         margin-left: 50%;
@@ -53,7 +52,6 @@ aside{
     margin-bottom: 30%;
     margin-left: 60%;
 }
-
 body>br>p{
     margin-left: 35%;
     margin-right: 35%;
@@ -141,8 +139,6 @@ aside>ul>li:active{
 aside>ul>li>a{
     color: black;
 }
-
-
 body>section>p{
     margin-top: 2%;
     display: inline-block;
