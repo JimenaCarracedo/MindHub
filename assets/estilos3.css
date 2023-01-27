@@ -35,7 +35,8 @@ body>header>h1{
     position:absolute;
     text-decoration: underline;
     text-decoration-color: gold;
-    
+    transform: translate(175%, 0%);
+    transition-duration: 8s;
 }
 h2{
         position:absolute;
