@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    margin-top: 25%;
 }
 body>header{
     background-image: url("./design2_image1.jpg");
