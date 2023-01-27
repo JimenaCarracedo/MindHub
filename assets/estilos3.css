@@ -27,7 +27,7 @@ body>header>h1{
     margin-top: -5%;
     margin-left: 5%;
     display: inline-block;
-    font-family:cursive;
+    font-family:"Comic Sans MS", "Comic Sans", italic;
     color:gold;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: darkred;
@@ -43,7 +43,7 @@ h2{
         margin-right: 35%;
         margin-top:30%;
         color: gold;
-        font-family: "Comic Sans MS", "Comic Sans";
+        font-family: "Comic Sans MS", "Comic Sans", italic;
         
 }
 aside{
@@ -56,17 +56,17 @@ aside{
 body>br>p{
     margin-left: 35%;
     margin-right: 35%;
-    font-family: "Comic Sans MS", "Comic Sans";
+    font-family: "Comic Sans MS", "Comic Sans", italic;
     position: relative;
     font-size: x-large;
 }
 body>section>p{
     font-size: x-large;
-    font-family: "Comic Sans MS", "Comic Sans";
+    font-family: "Comic Sans MS", "Comic Sans", italic;
 }
 body>section>h1, h2, h3{
     margin-left: 10%;
-    font-family: "Comic Sans MS", "Comic Sans";
+    font-family: "Comic Sans MS", "Comic Sans", italic;
     color: darkred;
     text-decoration: underline;
     -webkit-text-stroke: 0.1px;
@@ -104,7 +104,7 @@ aside>ul>li{
     margin-top: 50px;
     margin-left: 2%;
     font-size: x-large;
-    font-family: "Comic Sans MS", "Comic Sans";
+    font-family: "Comic Sans MS", "Comic Sans", italic;
     list-style: none; 
     float:left;
     background-color:rgb(235, 190, 44) ;
