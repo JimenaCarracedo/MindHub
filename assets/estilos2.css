@@ -99,29 +99,14 @@ aside>ul>li{
     margin-top: -50%;
     
 }
-aside>ul>li:hover{
+aside>ul>li:hover, .active{
     position:relative;
     font-size: x-large; 
     display: inline-block;
     background-color: rgb(15, 119, 41);
     
 }
-aside>ul>li:active{
-    position:relative;
-    font-size: x-large; 
-    display: inline-block;
-    background-color: rgb(15, 119, 41);
-    
-    
-}
-aside>ul>li:visited{
-    position:relative;
-    font-size: x-large; 
-    display: inline-block;
-    background-color: rgb(15, 119, 41);
-    
-    
-}
+
 body>article>section>p{
     margin-top: 2%;
 }
