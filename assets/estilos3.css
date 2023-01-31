@@ -31,7 +31,7 @@ body>header, .index, .about, .contact, .game_info, .rules{
 body>header>div>img{
     width: 150px;
     height: 150px;
-    position:absolute;
+    display: flex;
     margin-top: -40%;
     margin-left: 45%;    
     border-color: gold;
