@@ -2,20 +2,38 @@ body{
     background-color: black;
     margin-top: 35%;
 }
-body>header{
+body>header, .index{
+    background-image: url("./hockey_1.jpg");
+}
+body>header, .about{
+    background-image: url("./hockey_2.jpg");
+}
+body>header, .contact{
+    background-image: url("./hockey_3.jpg");
+}
+body>header, .game_info{
+    background-image: url("./design1_image1.jpg");
+}
+body>header, .rules{
     background-image: url("./design2_image1.jpg");
+}
+
+body>header, .index, .about, .contact, .game_info, .rules{
+    
     width: 1310px;
     height: 350px;
     margin-top: 10%;
-    position:relative;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 30%;
+    justify-content: center;
 }
 body>header>div>img{
     width: 150px;
     height: 150px;
-    margin-top: -10%;
-    margin-left: 50%;
     position:absolute;
+    margin-top: -40%;
+    margin-left: 45%;    
     border-color: gold;
     border-width: 5px;
     border-style: solid;
@@ -24,14 +42,14 @@ p{  font-size: x-large;
     font-family: "Comic Sans MS", "Comic Sans", italic;
 }
 body>header>h1{
-    margin-top: -10%;
+    margin-top: -30%;
     margin-left: 5%;
-    display: inline-block;
     font-family:"Comic Sans MS", "Comic Sans", italic;
     color:gold;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: darkred;
-    position:relative;
+    position:absolute;
+    display:inline-block;
     text-decoration: underline;
     text-decoration-color: gold;
     transition-delay: 3s;
@@ -53,19 +71,21 @@ body>header>h1{
     
 }
 h2{
-        position:absolute;
+        display:flex;
         margin-left: 50%;
         margin-right: 35%;
-        margin-top:30%;
+        margin-top:40%;
         color: gold;
         font-family: "Comic Sans MS", "Comic Sans", italic;
         
 }
 aside{
-    position:relative;
+    display:flex;
     margin-top: -60%;
     margin-bottom: 30%;
-    margin-left: 60%;
+    margin-left: 62%;
+    align-items: space-around;
+    align-content: right;
 }
 body>br>p{
     margin-left: 35%;
@@ -78,7 +98,7 @@ body>section>p{
     font-size: x-large;
     font-family: "Comic Sans MS", "Comic Sans", italic;
 }
-body>section>h1, h2, h3{
+body>section>h1, h2, h3, h4{
     margin-left: 10%;
     font-family: "Comic Sans MS", "Comic Sans", italic;
     color: darkred;
@@ -93,8 +113,9 @@ body>section{
     margin-left: 10%;
     margin-top: 0%;
     margin-bottom: 0%;
-    position:relative;
-    display: inline-block;
+    position:flex;
+    justify-content: center;
+    align-items: center;
     border-style: solid;
     border-width: 7px;
     border-color: darkred;
@@ -104,7 +125,7 @@ body>section>h2, p{
     width: 80%; 
     margin-left: 10%;
     margin-top: 0%;
-    position:relative;
+    position:flex;
     display: inline-block;
 }
 aside>ul{
@@ -112,9 +133,10 @@ aside>ul{
     display:flex;
     justify-content: center;
     
+    
 }
 aside>ul>li{
-    position:relative;
+    display:flex;
     margin-top: 50px;
     margin-left: 2%;
     font-size: x-large;
@@ -127,9 +149,10 @@ aside>ul>li{
     border-width: 2px;
     border-radius: 10px;
     border-style: solid;
+    
 }
 aside>ul>li:hover, .active{
-    position:relative;
+    display:flex;
     font-size: x-large; 
     display: inline-block;
     background-color: rgb(250, 6, 6);
@@ -145,4 +168,30 @@ aside>ul>li>a{
 body>section>p{
     margin-top: 2%;
     display: inline-block;
+}
+table{
+    background-color: rgb(235, 190, 44);
+    color: black;
+    font-family: "Comic Sans MS", "Comic Sans", italic;
+    display:flex;
+    justify-content: center;
+    font-size: x-large;
+    border-spacing: 30px;
+}
+table>td{
+    
+    display:flex;
+    align-items: stretch;
+    
+}
+
+table>td>tr{
+    
+    border-width: 15%;
+}
+
+body>section>h3{
+    display:flex;
+    justify-content: left;
+
 }
