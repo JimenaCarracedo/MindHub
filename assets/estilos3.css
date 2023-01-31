@@ -20,7 +20,7 @@ body>header, .rules{
 
 body>header, .index, .about, .contact, .game_info, .rules{
     
-    width: 1310px;
+    width: 100%;
     height: 350px;
     margin-top: 10%;
     display: flex;
