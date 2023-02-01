@@ -3,19 +3,19 @@ body{
     margin-top: 35%;
 }
 body>header, .index{
-    background-image: url("./hockey_1.jpg");
+    background-image: url("/assets/hockey_1.jpg");
 }
 body>header, .about{
-    background-image: url("./hockey_2.jpg");
+    background-image: url("/assets/hockey_2.jpg");
 }
 body>header, .contact{
-    background-image: url("./hockey_3.jpg");
+    background-image: url("/assets/hockey_3.jpg");
 }
 body>header, .game_info{
-    background-image: url("./design1_image1.jpg");
+    background-image: url("/assets/design1_image1.jpg");
 }
 body>header, .rules{
-    background-image: url("./design2_image1.jpg");
+    background-image: url("/assets/design2_image1.jpg");
 }
 
 body>header, .index, .about, .contact, .game_info, .rules{
@@ -31,7 +31,7 @@ body>header, .index, .about, .contact, .game_info, .rules{
 body>header>div>img{
     width: 150px;
     height: 150px;
-    display: flex;
+    display:flex;
     margin-top: -40%;
     margin-left: 45%;    
     border-color: gold;
@@ -173,17 +173,17 @@ table{
     justify-content: center;
     font-size: x-large;
     border-spacing: 30px;
+    
 }
 table>td{
-    
-    
     align-items: center;
     
 }
 
 table>td>tr{
     
-    border-width: 15%;
+    align-items: center;
+
 }
 
 body>section>h3{
