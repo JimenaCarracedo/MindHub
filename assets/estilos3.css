@@ -132,7 +132,7 @@ aside>ul{
     
 }
 aside>ul>li{
-    display:flex;
+    
     margin-top: 50px;
     margin-left: 2%;
     font-size: x-large;
@@ -148,7 +148,7 @@ aside>ul>li{
     
 }
 aside>ul>li:hover, .active{
-    display:flex;
+    
     font-size: x-large; 
     display: inline-block;
     background-color: rgb(250, 6, 6);
@@ -176,8 +176,8 @@ table{
 }
 table>td{
     
-    display:flex;
-    align-items: stretch;
+    
+    align-items: center;
     
 }
 
@@ -187,7 +187,7 @@ table>td>tr{
 }
 
 body>section>h3{
-    display:flex;
+    
     justify-content: left;
 
 }
