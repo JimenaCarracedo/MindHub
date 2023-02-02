@@ -3,19 +3,19 @@ body{
     margin-top: 35%;
 }
 body>header, .index{
-    background-image: url("hockey_1.jpg");
+    background-image: url("./hockey_1.jpg");
 }
 body>header, .about{
-    background-image: url("hockey_2.jpg");
+    background-image: url("./hockey_2.jpg");
 }
 body>header, .contact{
-    background-image: url("hockey_3.jpg");
+    background-image: url("./hockey_3.jpg");
 }
 body>header, .game_info{
-    background-image: url("design1_image1.jpg");
+    background-image: url("./design1_image1.jpg");
 }
 body>header, .rules{
-    background-image: url("design2_image1.jpg");
+    background-image: url("./design2_image1.jpg");
 }
 
 body>header, .index, .about, .contact, .game_info, .rules{
