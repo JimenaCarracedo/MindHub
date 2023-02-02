@@ -3,19 +3,19 @@ body{
     margin-top: 35%;
 }
 body>header, .index{
-    background-image: url("../assets/hockey_1.jpg");
+    background-image: url("/assets/hockey_1.jpg");
 }
 body>header, .about{
-    background-image: url("MindHub/assets/hockey_2.jpg");
+    background-image: url("/assets/hockey_2.jpg");
 }
 body>header, .contact{
-    background-image: url("/MindHub/assets/hockey_3.jpg");
+    background-image: url("/assets/hockey_3.jpg");
 }
 body>header, .game_info{
-    background-image: url("./assets/design1_image1.jpg");
+    background-image: url("/assets/design1_image1.jpg");
 }
 body>header, .rules{
-    background-image: url("MindHub/assets/design2_image1.jpg");
+    background-image: url("/assets/design2_image1.jpg");
 }
 
 body>header, .index, .about, .contact, .game_info, .rules{
@@ -25,14 +25,14 @@ body>header, .index, .about, .contact, .game_info, .rules{
     margin-top: 10%;
     display: flex;
     flex-direction: column;
-    margin-bottom: 10%;
+    margin-bottom: 30%;
     justify-content: center;
 }
 body>header>div>img{
     width: 150px;
     height: 150px;
     display:flex;
-    margin-top: -50%;
+    margin-top: -60%;
     margin-left: 60%;    
     border-color: gold;
     border-width: 5px;
@@ -74,7 +74,7 @@ h2{
         display:flex;
         margin-left: 50%;
         margin-right: 35%;
-        margin-top:0%;
+        margin-top:50%;
         color: gold;
         font-family: "Comic Sans MS", "Comic Sans", italic;
         
