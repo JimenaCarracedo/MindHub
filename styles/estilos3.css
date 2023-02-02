@@ -27,6 +27,7 @@ body>header, .index, .about, .contact, .game_info, .rules{
     flex-direction: column;
     margin-bottom: 30%;
     justify-content: center;
+}
 body>header, .index, .about, .contact, .game_info, .rules{
     
     width: 100%;
