@@ -6,7 +6,7 @@ body>header, .index{
     background-image: url("assets/hockey_1.jpg");
 }
 body>header, .about{
-    background-image: url("assets/hockey_2.jpg");
+    background-image: url("styles/assets/hockey_2.jpg");
 }
 body>header, .contact{
     background-image: url("hockey_3.jpg");
