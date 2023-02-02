@@ -70,11 +70,11 @@ body>header>h1{
     }
     
 }
-header>h2{
+h2{
         display:flex;
         margin-left: 50%;
         margin-right: 35%;
-        margin-top:10%;
+        margin-top:0%;
         color: gold;
         font-family: "Comic Sans MS", "Comic Sans", italic;
         
