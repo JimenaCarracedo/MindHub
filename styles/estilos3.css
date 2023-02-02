@@ -35,7 +35,7 @@ body>header, .index, .about, .contact, .game_info, .rules{
     margin-top: 10%;
     display: flex;
     flex-direction: column;
-    margin-bottom: 30%;
+    margin-bottom: 50%;
     justify-content: center;
 }
 body>header>div>img{
@@ -85,13 +85,14 @@ h2{
         margin-left: 50%;
         margin-right: 35%;
         margin-top:50%;
+        margin-bottom: 30%;
         color: gold;
         font-family: "Comic Sans MS", "Comic Sans", italic;
         
 }
 aside{
     display:flex;
-    margin-top: -60%;
+    margin-top: -70%;
     margin-bottom: 30%;
     margin-left: 50%;
     align-items: space-around;
