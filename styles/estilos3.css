@@ -15,7 +15,7 @@ body>header, .game_info{
     background-image: url("./assets/design1_image1.jpg");
 }
 body>header, .rules{
-    background-image: url("../assets/design2_image1.jpg");
+    background-image: url("MindHub/assets/design2_image1.jpg");
 }
 
 body>header, .index, .about, .contact, .game_info, .rules{
