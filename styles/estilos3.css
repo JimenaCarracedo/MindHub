@@ -32,7 +32,7 @@ body>header>div>img{
     width: 150px;
     height: 150px;
     display:flex;
-    margin-top: -60%;
+    margin-top: -90%;
     margin-left: 60%;    
     border-color: gold;
     border-width: 5px;
@@ -77,7 +77,7 @@ h2{
         margin-top:80%;
         color: gold;
         font-family: "Comic Sans MS", "Comic Sans", italic;
-        margin-bottom:30%;
+        margin-bottom:50%;
 }
 aside{
     display:flex;
