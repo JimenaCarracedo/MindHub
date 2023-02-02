@@ -3,7 +3,7 @@ body{
     margin-top: 35%;
 }
 body>header, .index{
-    background-image: url("hockey_1.jpg");
+    background-image: url("assets/hockey_1.jpg");
 }
 body>header, .about{
     background-image: url("hockey_2.jpg");
