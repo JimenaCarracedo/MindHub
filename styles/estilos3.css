@@ -3,10 +3,10 @@ body{
     margin-top: 35%;
 }
 body>header, .index{
-    background-image: url("./design2_image1.jpg");
+    background-image: url("../assets/hockey_1.jpg");
 }
 body>header, .about{
-    background-image: url("./design2_image1.jpg");
+    background-image: url("../assets/hockey_2.jpg");
 }
 body>header, .contact{
     background-image: url("./design2_image1.jpg");
