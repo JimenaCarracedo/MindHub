@@ -248,7 +248,7 @@ iframe{
         height: 70px;
         border-width: 1px;
     }
-    section>h3{
+    section>h2{
         position:relative;
         margin-top: 50%;
         font-size: small;
