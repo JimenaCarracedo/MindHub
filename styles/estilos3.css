@@ -234,15 +234,15 @@ iframe{
         font-size: xx-small;
         padding:0%;
     }
-    h2{
-        display:flex;
-        margin-top: 150%;
-        margin-bottom: 10%;
+    header>div>h2{
+        display: flex;
+        margin-top: 175%;
+        margin-bottom: 20%;
         font-size: medium;
     }
     body>header>div>img{
         position:relative;
-        margin-top: -100%;
+        margin-top: -130%;
         margin-right: 50%;
         width: 70px;
         height: 70px;
@@ -266,6 +266,9 @@ iframe{
     }
     main{
         margin-top: 50%;
+    }
+    header>div>p{
+        margin-bottom: 30%;
     }
 }
 @media only screen and (min-width:768px) and (max-width:1023px) {
