@@ -184,7 +184,7 @@ table{
     justify-content: center;
     font-size: x-large;
     border-spacing: 30px;
-    
+    width:100%;
 }
 table>td{
     align-items: center;
@@ -194,7 +194,9 @@ table>td{
 table>td>tr{
     
     align-items: center;
-
+    border:1px;
+    border-style: solid;
+    border-color: black;
 }
 
 body>main>section>h3{
