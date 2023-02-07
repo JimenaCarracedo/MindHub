@@ -235,7 +235,8 @@ iframe{
         padding:0%;
     }
     h2{
-        margin-top: 180%;
+        display:flex;
+        margin-top: 150%;
         margin-bottom: 10%;
         font-size: medium;
     }
