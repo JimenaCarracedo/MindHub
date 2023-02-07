@@ -211,9 +211,7 @@ main>form{
 iframe{
     margin-left: 10%;
 }
-input{
-    -webkit-transform-style: flat;
-}
+
 @media only screen and (min-width:320px) and (max-width:767px) {
     body{
         margin-top:0%;
