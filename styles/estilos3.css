@@ -135,6 +135,9 @@ body>main>section>h2, p{
     margin-top: 0%;
     display: inline-block;
 }
+section>h2{
+    margin-top: 5%;
+}
 aside>ul{
     list-style: none;
     display:flex;
@@ -300,7 +303,10 @@ iframe{
         height: 140px;
         border-width: 1px;;
     }
-    h2{
+    header>h2{
         margin-top:80%;
+    }
+    section>h2{
+        margin-top: 5%;
     }
 }
